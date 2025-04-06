@@ -1,0 +1,804 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: whitesmoke;
+    background-attachment: fixed;
+}
+.logo{
+    height: 40px;
+    width: 145px;
+    position: absolute;
+    left: 40px;
+    top: 25px;
+}
+.Solutions{ 
+    height: 10px;
+    width: 40px;
+    position: absolute;
+    left: 470px;
+    top: 40px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Strategy{
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    left: 560px;
+    top: 40px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Resources{
+    height: 20px;
+    width: 40px;
+    
+    position: absolute;
+    left: 640px;
+    top: 40px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Pricing{
+    height: 20px;
+    width: 40px;
+   
+    position: absolute;
+    left: 735px;
+    top: 40px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.CaseStudies{
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    left: 810px;
+    top: 40px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.CaseStudies:hover{
+
+}
+.login{
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    left: 1143px;
+    top: 40px;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.getstarted{
+    height: 38px;
+    width: 110px;
+    position: absolute;
+    left: 1195px;
+    top: 30px;
+    background-color: rgb(3, 197, 197);
+    color: white;
+    border-radius: 8px;  
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-top: 10px;
+    font-size: 12px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.getstarted:hover {
+    color: rgb(9, 148, 148);
+    background-color: black;
+}
+.heading{
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 195px;
+    top: 145px;
+    color: black;
+    font-size: 33px;
+    font-family: sans-serif;
+}
+.p1{
+    height: 150px;
+    width: 400px;
+    position: relative;
+    left: 195px;
+    top: 40px;
+    color: black;
+    font-size: 13px;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.learnmore{
+    height: 49px;
+    width: 160px;
+    position: relative;
+    left: 195px;
+    top: 25px;
+    background-color: rgb(3, 197, 197);
+    color: white;
+    border-radius: 8px;
+    border: 1px solid  rgb(3, 197, 197);  
+    box-sizing: border-box;
+    padding-left: 27px;
+    padding-top: 15px;
+    font-size: 14px;  
+    font-family: sans-serif;
+    font-weight: 10px; 
+    box-shadow: 2px 2px 20px rgb(3, 197, 197);
+}
+.learnmore:hover {
+    color: rgb(9, 148, 148);
+    background-color: black;
+}
+.animation{
+    height: 400px;
+    width: 797px;
+    border: 1px solid transparent;
+    position: relative;
+    top: -300px;
+    left: 550px;
+    overflow: hidden;
+}
+
+.card1{
+    height: 115px;
+    width: 90px;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 250px;
+    top: 180px;
+    background: url(./card-boy@2x.png);
+    background-position: center;
+    background-size: cover;
+    animation-name: cards;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+}
+.card2{
+    height: 115px;
+    width: 90px;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 390px;
+    top: 180px;
+    background: url(./card-girl@2x.png);
+    background-position: center;
+    background-size: cover;
+    animation-name: cards;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+}
+.card3{
+    height: 115px;
+    width: 90px;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 530px;
+    top: 180px;
+    background: url(./card-boy@2x.png);
+    background-position: center;
+    background-size: cover;
+    animation-name: cards;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+}
+.card4{
+    height: 115px;
+    width: 90px;
+    border: 1px solid;
+    border-radius: 5px;
+    position: absolute;
+    left: 670px;
+    top: 180px;
+    background: url(./card-girl@2x.png);
+    background-position: center;
+    background-size: cover;
+    animation-name: cards;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+}
+.herobase1{
+    height: 358px;
+    width: 350px;
+    position: absolute;
+    left: 55px;
+    top: 10px;
+}
+.herobase2{
+    height: 345x;
+    width: 333px;
+    position: absolute;
+    left: 435px;
+    top: 7px;
+}
+@keyframes cards{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(100px);
+    }
+}
+.talkbubble1{
+    height: 42px;
+    width: 160px;
+    position: absolute;
+    left: 275px;
+    top: 60px;
+   background: url(./talk-bubble@2x.png);
+   background-position: center;
+   background-size: cover;
+   animation-name: talkbubble;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+.talkbubble2{
+    height: 42px;
+    width: 160px;
+    position: absolute;
+    left: 70px;
+    top: 285px;
+   background: url(./talk-bubble@2x.png);
+   background-position: center;
+   background-size: cover;
+   animation-name: talkbubble;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+@keyframes talkbubble{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-7px);
+    }
+    100%{
+        transform: translateY(7px);
+    }
+}
+.border{
+    height: 25px;
+    width: 230px;
+    border: 1px solid;
+    position: absolute;
+    border-radius: 20px;
+    left:480px ;
+    top: 155px;
+    overflow: hidden;
+    background-color: rgb(0, 217, 255);
+}
+.searchbar{
+    height: 25px;
+    width: 120px;
+    border: 1px solid;
+    position: absolute;
+    border-radius: 20px;
+    left:480px ;
+    top: 155px;
+}
+.curvedline{
+    height: 25px;
+    width: 130px;
+    position: absolute;
+    top: 230px;
+    left:490px ;
+    background: url(graph-wave@2x.png);
+    background-position: center;
+    background-size: cover;
+    animation-name: wave;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+
+}
+@keyframes wave{
+    0%{
+        transform: translatex(90px);
+    }
+    100%{
+        transform: translatex(-5px);
+    }
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 710px;
+    top: 80px;
+    border-radius: 50px;
+    background: url(./circle-pink@2x.png);
+    background-size: cover;
+    background-position: center;
+}
+.line{
+    height: 1px;
+    width: 160px;
+    background-color: black;
+    position: absolute;
+    top:10px ;
+    left: 10px;
+    animation-name: line;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    
+}
+@keyframes line{
+    0%{
+        transform: translatex(0px);
+    }
+    100%{
+        transform: translatex(100px);
+    }
+}
+.dot1{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    border: 2px solid aqua;
+    background-color: white;
+    left: 15px;
+    top: -5;
+    border-radius: 5px;
+}
+.dot2{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    border: 2px solid aqua;
+    background-color: white;
+    left: 50px;
+    top: -5;
+    border-radius: 5px;
+}
+.dot3{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    border: 2px solid aqua;
+    background-color: white;
+    left: 90px;
+    top: -5;
+    border-radius: 5px;
+}
+.dot4{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    border: 2px solid aqua;
+    background-color: white;
+    left: 130px;
+    top: -5;
+    border-radius: 5px;
+}
+.page2{
+    border: 1px solid ;
+    height: 500px;
+    width: 1345px;
+    position: relative;
+    top: -300px;
+}
+.ornament1{
+    
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    top: 40px;
+    left: -80px;
+}
+.pinhub{
+    height: 35px;
+    width: 85px;
+    position: absolute;
+    top: 62px;
+    left: 195px;
+}
+.amazon{
+    height: 40px;
+    width: 85px;
+    position: absolute;
+    top: 60px;
+    left: 365px;   
+}
+.logo3{
+    height: 40px;
+    width: 85px;
+    position: absolute;
+    top: 60px;
+    left: 545px;
+}
+.honda{
+    height: 40px;
+    width: 85px;
+    position: absolute;
+    top: 60px;
+    left: 720px;
+}
+.walmart{
+    height: 40px;
+    width: 85px;
+    position: absolute;
+    top: 60px;
+    left: 895px;
+}
+.bet{
+    height: 40px;
+    width: 85px;
+    position: absolute;
+    top: 60px;
+    left: 1070px;
+}
+.heading2{
+    height: 50px;
+    width: 710px;
+    position: absolute;
+    left: 353px;
+    top: 275px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.p2{
+    height: 150px;
+    width: 720px;
+    position: absolute;
+    left: 313px;
+    top: 334px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+.underimg{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 630px;
+    top: 450px;
+}
+.b3{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color:rgb(3, 197, 197);
+    border-radius: 10px;
+    position: absolute;
+    left: 620px;
+    top: 435px;
+    box-sizing: border-box;
+    padding-left: 13px;
+    padding-top: 12px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.b3:hover{
+    color: rgb(9, 148, 148);
+    background-color: black;
+}
+.page3{
+    border: 1px solid ;
+    height: 450px;
+    width: 1345px;
+    position: relative;
+    top: -290px;
+}
+.heading3{
+    height: 100px;
+    width: 240px;
+    position: absolute;
+    top: 110px;
+    left: 190px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 23px;
+
+}
+.p3{
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: 190px;
+    left: 190px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.underimg2{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 210px;
+    top: 360px;
+}
+.b4{
+    height: 40px;
+    width: 105px;
+    color: white;
+    background-color:rgb(3, 197, 197);
+    border-radius: 10px;
+    position: absolute;
+    left: 195px;
+    top: 345px;
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-top: 12px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.b4:hover{
+    color: rgb(9, 148, 148);
+    background-color: 
+    black;
+}
+.work-illus1{
+    height: 340px;
+    width: 580px;
+    position: absolute;
+    left: 585px;
+    top: 60px;
+}
+.workphoto1{
+    border: 1px solid transparent;
+    height: 215px;
+    width: 156px;
+    position: absolute;
+    left:682px ;
+    top:130px ;
+    background: url(./work1-photo1@2x.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.workphoto2{
+    height: 230px;
+    width: 179px;
+    position: absolute;
+    left:880px ;
+    top:85px ;
+    background: url(./work1-photo2@2x.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.page4{
+    border: 1px solid ;
+    height: 420px ;
+    width: 1345px;
+    position: relative;
+    top: -289px;
+}
+.work-illus2{
+    height: 340px;
+    width: 585px;
+    position: absolute;
+    left: 190px;
+    top: 55px;   
+}
+.heading4{
+    height: 50px;
+    width: 400px;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: black;
+    position: absolute;
+    left:825px ;
+    top: 105px;
+}
+.p4{
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: 150px;
+    left: 820px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.underimg3{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 850px;
+    top: 350px;
+}
+.b5{
+    height: 40px;
+    width: 105px;
+    color: white;
+    background-color:rgb(3, 197, 197);
+    border-radius: 10px;
+    position: absolute;
+    left: 835px;
+    top: 340px;
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-top: 12px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.b5:hover{
+    color: rgb(9, 148, 148);
+    background-color: 
+    black;
+}
+.work2photo1{
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    left: 268px;
+    top: 155px;
+}
+.work2-bubble{
+    height: 90px;
+    width: 140px;
+    position: absolute;
+    left: 220px;
+    top: 80px ;
+}
+.page5{
+    border: 1px solid;
+    height: 420px;
+    position: relative;
+    top: -285px;
+}
+.heading3{
+    height: 100px;
+    width: 240px;
+    position: absolute;
+    top: 110px;
+    left: 190px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 23px;
+
+}
+.p3{
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: 190px;
+    left: 190px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.underimg2{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 210px;
+    top: 360px;
+}
+.b4{
+    height: 40px;
+    width: 105px;
+    color: white;
+    background-color:rgb(3, 197, 197);
+    border-radius: 10px;
+    position: absolute;
+    left: 195px;
+    top: 345px;
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-top: 12px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.b4:hover{
+    color: rgb(9, 148, 148);
+    background-color: 
+    black;
+}
+.work-illus3{
+    height: 340px;
+    width: 590px;
+    position: absolute;
+    top: 75px;
+    left: 585px;
+}
+.workshap3{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    left: 1060px;
+    top: 320px;
+}
+.work3-photo1{
+    height: 220px;
+    width: 150px;
+    position: absolute;
+    left:1020px ;
+    top: 105px;
+}
+.page6{
+    border: 1px solid;
+    height: 450px;
+    width: 1340px;
+    position: relative;
+    top: -270px;
+}
+.work-illus4{
+    height: 340px;
+    width: 565px;
+    position: absolute;
+    left: 190px;
+    top: 95px;   
+}
+.work4-photo1{
+    height: 190px;
+    width: 150px;
+    position: absolute;
+    left: 575px;
+    top: 140px;
+}
+.work4-mag{
+    height:70px;
+    width: 70px;
+    position: absolute;
+    left: 673px;
+    top:115px ;
+}
+.heading5{
+    height: 100px;
+    width: 240px;
+    position: absolute;
+    top: 155px;
+    left: 820px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 23px;
+
+}
+.p5{
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    top: 205px;
+    left: 820px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+.underimg7{
+    height: 40px;
+    width: 100px;
+    position: absolute;
+    left: 840px;
+    top: 400px;
+}
+.b6{
+    height: 40px;
+    width: 105px;
+    color: white;
+    background-color:rgb(3, 197, 197);
+    border-radius: 10px;
+    position: absolute;
+    left: 825px;
+    top: 385px;
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-top: 12px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+.b6:hover{
+    color: rgb(9, 148, 148);
+    background-color: 
+    black;
+}
