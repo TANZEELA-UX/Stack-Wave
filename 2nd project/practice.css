@@ -1,0 +1,685 @@
+#testimonial{
+    border: 1px solid;
+    height: 505px;
+    width: 1330px;
+    background-color: rgb(103, 65, 136);
+    margin-top: -4px;
+}
+#test{
+    text-align: center;
+    height:40px;
+    width: 80px;
+    font-family: sans-serif;
+    margin-left: 570px;
+    font-size: 29px;
+    margin-top: 38px;
+    color: white;
+}
+#pic{
+    height: 100px;
+    width: 100px;
+    margin-left: 610px;
+    margin-top: 30px;
+    background: url(./front-page-team-3.jpg)50% 50%;
+    border-radius: 50%;
+}
+#para{
+    height: 80px;
+    width: 750px;
+    padding-top: 10px;
+    margin-left: 300px;
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+    background-color: rgb(122, 28, 172);
+}
+#mike{
+    height: 30px;
+    width: 100px;
+    margin-left: 620px;
+    margin-top: 40px;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#white{
+    height: 375px;
+    width: 1330px;
+    border: 1px solid;
+}
+#service{
+    height: 30px;
+    width: 80px;
+    color: rgb(87, 87, 87);
+    font-size: 32px;
+    margin-left: 600px;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+#par{
+    height: 20px;
+    width: 750px;
+    margin-left: 300px;
+    margin-top: 10px;
+    text-align: center;
+    color: grey;
+    font-size: 14px;
+
+}
+#ico{
+    height: 30px;
+    width: 60px;
+    margin-left: 295px;
+    margin-top: 50px;
+    font-size: 30px;
+    padding-left: 30px;
+    color: rgb(255, 160, 122);
+}
+#icon{
+    height: 30px;
+    width: 60px;
+    margin-left: 620px;
+    margin-top: -60px;
+    font-size: 40px;
+    padding-left: 30px;
+    color: rgb(255, 191, 0);
+}
+#ic{
+    
+    height: 30px;
+    width: 60px;
+    margin-left: 930px;
+    margin-top: -65px;
+    font-size: 35px;
+    padding-left: 30px;
+    color: rgb(63, 63, 62);
+}
+#a{
+    height: 90px;
+    width: 285px;
+    margin-left: 210px;
+    margin-top: 30px;
+    text-align: center;
+    color: grey;
+} 
+#b{
+    height: 90px;
+    width: 285px;
+    margin-left: 520px;
+    margin-top: -92px;
+    text-align: center;
+    color: grey;
+}   
+#c{
+    height: 90px;
+    width: 290px;
+    margin-left: 830px;
+    margin-top: -92px;
+    text-align: center;
+    color: grey;
+}   
+#blacko{
+    border: 1px solid;
+    height: 790px;
+    width: 1330px;
+    background-color:rgb(8, 10, 31);
+}
+#latest{
+    margin-top: 60px;
+    height: 30px; 
+    width: 190px;
+    margin-left: 580px;
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+#news{
+    height: 10px;
+    width: 680px;
+    font-size: 13px;
+    color: rgb(163, 163, 163);
+    margin-left: 350px;
+    margin-top: 10px;
+    font-family: sans-serif;
+}
+#button{
+    height: 27px;
+    width: 120px;
+    margin-left: 600px;
+    margin-top: 50px;
+    background-color: rgb(233, 211, 10);
+    color: white;
+    text-align: center;
+    padding-top: 11px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+#button:hover{
+    background-color:rgb(103, 65, 136) ;
+}
+#water{
+    height: 170px;
+    width: 290px;
+    margin-left: 207px;
+    margin-top: 60px;
+    background: url(./photo-1449168013943-3a15804bb41c-360x213.jpg);
+}
+#grass{
+    height: 170px;
+    width: 290px;
+    margin-left: 520px;
+    margin-top:-172px;
+    background: url(./photo-1450101215322-bf5cd27642fc-360x213.jpg);
+}
+#mountain{
+    height: 170px;
+    width: 290px;
+    margin-left: 830px;
+    margin-top:-172px;
+    background: url(./photo-1447687643809-e05fd462f350-360x213.jpg);
+}
+#panels{
+    border: 1px solid white;
+    height: 270px;
+    width: 289px;
+    margin-left: 207px;
+    background-color: white;
+}
+#panelss{
+    border: 1px solid white;
+    height: 295px;
+    width: 289px;
+    margin-left: 520px;
+    margin-top:-272px;
+    background-color: white;
+}
+#panelsss{
+    border: 1px solid white;
+    height: 270px;
+    width: 289px;
+    margin-left: 830px;
+    margin-top:-297px;
+    background-color: white;
+}
+#h1{
+    height: 50px;
+    width:200px;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+    font-family: sans-serif;
+}
+#h2{
+    height: 60px;
+    width:220px;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+    font-family: sans-serif;
+}
+#h3{
+    height: 50px;
+    width:200px;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: rgb(88, 88, 88);
+    font-family: sans-serif;
+}
+#p1{
+    height: 60px;
+    width:220px ;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: 13px;
+}
+#p2{
+    height: 60px;
+    width:220px ;
+    margin-left: 25px;
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: 13px;
+}
+#p3{
+    height: 60px;
+    width:220px ;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+    font-size: 13px;
+}
+#i1{
+    height: 10px;
+    width: 10px;
+    margin-left: 30px;
+    margin-top: 45px;
+    color: rgb(233, 211, 10);
+}
+#i2{
+    height: 10px;
+    width: 10px;
+    margin-left: 30px;
+    margin-top: 45px;
+    color: rgb(233, 211, 10);
+}
+#i3{
+    height: 10px;
+    width: 10px;
+    margin-left: 30px;
+    margin-top: 45px;
+    color:rgb(233, 211, 10);
+}
+#read{
+    height: 10px;
+    width: 100px;
+    color: rgb(233, 211, 10);
+    margin-left: 50px;
+    margin-top: -10px;
+    font-size: 13px;
+}
+#yellow{
+    border: 1px solid yellow;
+    height: 113px;
+    width: 1333px;
+    background:url(./front-page-counter.jpg)100% 100%;
+}
+#pro{
+    height: 20px;
+    width: 100px;
+    margin-left: 315px;
+    margin-top: 55px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 3px;
+}
+#vl{
+  border-left: 1px solid white;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  margin-left: -160px;
+  margin-top: -40px;
+}
+#client{
+    height: 20px;
+    width: 100px;
+    margin-left: 630px;
+    margin-top: -23px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 3px;
+}
+#vlo{
+    border-left: 1px solid white;
+    height: 40px;
+    position: absolute;
+    left: 50%;
+    margin-left: 157px;
+    margin-top: -40px;
+}
+#coffes{
+    
+    height: 20px;
+    width: 100px;
+    margin-left: 950px;
+    margin-top: -25px;
+    font-family: sans-serif;
+    color: white;
+    padding-top: 3px;
+}
+#teambackground{
+    border: 1px solid;
+    height: 415px;
+    width: 1335px;
+    background: url(./gry.jpg);
+}
+#team{
+    height: 20px;
+    width: 80px;
+    margin-left: 626px;
+    margin-top: 63px;
+    color: rgb(60, 65, 60);
+    font-family: sans-serif;
+    font-size: 26px;
+}
+#teampara{
+    height: 15px;
+    width: 410px;
+    margin-left: 472px;
+    margin-top: 15px;
+    color: gray;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+#mark{
+    border-radius: 50px;
+    height: 95px;
+    width: 100px;
+    margin-left: 210px;
+    margin-top: 75px;
+    background: url(./front-page-team-1.jpg) 70% ;
+}
+#lawrance{
+    height: 10px;
+    width: 150px;
+    margin-left: 330px;
+    margin-top: -88px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(50, 53, 50);
+}
+#WebDesigner{
+    height: 10px;
+    width: 80px;
+    margin-left: 330px;
+    margin-top: 19px;
+    font-size: 14px;
+    color: rgb(204, 54, 54);
+}
+#picp1{
+    height: 40px;
+    width: 150px;
+    margin-left: 330px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: gray;
+}
+#i1{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 330px;
+    margin-top: 5px;
+}
+#i2{
+    margin-left: 360px;
+    margin-top: -20px;
+}
+#i3{
+    margin-left: 385px;
+    margin-top: -10px;
+}
+#Jane{
+    border-radius: 50px;
+    height: 95px;
+    width: 100px;
+    margin-left: 520px;
+    margin-top: -125px;
+    background: url(./front-page-team-2.jpg) 10%  100%;
+}
+#Stenton{
+    height: 10px;
+    width: 150px;
+    margin-left: 640px;
+    margin-top: -85px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(50, 53, 50);
+}
+#SEOSpecialis{
+    height: 10px;
+    width: 100px;
+    margin-left: 640px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(204, 54, 54);
+}
+#picp2{
+    height: 40px;
+    width: 150px;
+    margin-left: 640px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: gray;
+}
+#i4{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 640px;
+    margin-top: 5px;
+}
+#i5{
+    margin-left: 670px;
+    margin-top: -20px;
+}
+#i6{
+    margin-left: 695px;
+    margin-top: -20px;
+}
+#John{
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    margin-left: 830px;
+    margin-top: -135px;
+    background: url(./front-page-team-3.jpg) 10%  100%;
+}
+#Smith{
+    height: 10px;
+    width: 150px;
+    margin-left: 950px;
+    margin-top: -90px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(50, 53, 50);
+}
+#Developer{
+    height: 10px;
+    width: 80px;
+    margin-left: 950px;
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(204, 54, 54);
+}
+#picp3{
+    height: 40px;
+    width: 200px;
+    margin-left: 950px;
+    margin-top: 20px;
+    font-size: 15px;
+    color: gray;
+}
+#i7{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 950px;
+    margin-top: 5px;
+}
+#i8{
+    margin-left: 980px;
+    margin-top: -20px;
+}
+#i9{
+    margin-left: 1000px;
+    margin-top: -20px;
+}
+#contectbackground{
+   height: 570px;
+   width: 1335;
+   border: 1px solid;
+}
+#contect{
+    height: 30px;
+    width: 150px;
+    margin-left: 585px;
+    margin-top: 30px;
+    font-size: 28px;
+    color: rgb(38, 41, 38);
+    font-family: sans-serif;
+}
+#address{
+    height: 15px;
+    width: 80px;
+    margin-left: 210px;
+    margin-top: 75px;
+    font-family: sans-serif;
+    color: rgb(226, 226, 7);
+    font-size: 14px;
+
+}
+#line3{
+    
+    height: 40px;
+    width: 2px;
+    margin-left:270px ;
+    margin-top: -20px;
+    border-left: 1px solid rgb(156, 155, 155);
+}
+#p8{
+    height: 30px;
+    width: 200px;
+    margin-left: 290px;
+    margin-top: -40px;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#customer{
+    height: 15px;
+    width: 130px;
+    margin-left: 520px;
+    margin-top: -32px;
+    font-family: sans-serif;
+    color: rgb(226, 226, 7);
+    font-size: 13px;
+
+}
+#line4{
+    
+    height: 40px;
+    width: 2px;
+    margin-left:640px ;
+    margin-top: -20px;
+    border-left: 1px solid rgb(156, 155, 155);
+}
+#p9{
+    height: 30px;
+    width: 200px;
+    margin-left: 660px;
+    margin-top: -35px;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#name{
+    height: 20px;
+    width: 100px;
+    margin-left:210px ;
+    margin-top: 55px;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#E-mail{
+    height: 20px;
+    width: 100px;
+    margin-left:520px ;
+    margin-top: -20px;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#subject{
+    height: 20px;
+    width: 100px;
+    margin-left:830px ;
+    margin-top: -22px;
+    color: gray;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+#input1{
+   margin-left:210px ;
+   height: 21px;
+   width: 250px;
+   color: rgb(158, 158, 158);
+}
+#input2{
+    margin-left: 45px;
+    height: 21px;
+    width: 250px;
+    color: rgb(158, 158, 158);
+}
+#inputdiv{
+    margin-left: 830px;
+    height: 21px;
+    width: 250px;
+    margin-top: -27px;
+    color: rgb(158, 158, 158);
+}
+#masg{
+    height: 20px;
+    width: 100px;
+    margin-left: 210px;
+   margin-top: 10px;
+   color: gray;
+}
+#button3{
+    border: 1px solid;
+    height: 30px;
+    width: 75px;
+    margin-left: 910px;
+    margin-top: 20px;
+    background-color: rgb(252, 215, 8);
+    color: white;
+    padding-left: 25px;
+    padding-top: 5px;
+}
+#blackbackground{
+    border: 1px solid;
+    height: 280px;
+    width: 1335px;
+    background-color: rgb(46, 42, 42);
+    color: white;
+}
+#product{
+    display: inline-flex;
+    height: 20px;
+    width: 100px;
+    margin-left: 210px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#info{
+    display: inline-flex;
+    height: 20px;
+    width: 100px;
+    margin-left: 130px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#support{
+    display: inline-flex;
+    height: 20px;
+    width: 100px;
+    margin-left: 130px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#li{
+    margin-left:190px ;
+}
+#li2{
+    margin-left: 430px;
+    margin-top: -145px;
+}
+#li3{
+    margin-left: 655px;
+    margin-top: -140px;
+}
+#sophia{
+    margin-left: 530px;
+    margin-top: 50px;
+    height: 10px;
+    width: 400px;
+    font-size: 13px;
+}
