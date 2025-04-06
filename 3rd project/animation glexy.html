@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body 
+        {
+
+            background-color:  black;
+        }
+    .main-ball
+        {
+            height: 500px;
+            width: 500px;
+            border: 1px solid white;
+            position: relative;
+            border-radius: 100%;
+            left: 400px;
+            top: 70px;
+            animation-name: move;
+            animation-duration: 8S;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes move {
+            
+            0% { 
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+
+            }
+        
+        }
+
+        .child-ball
+        {
+            height: 20px;
+            width: 20px;
+            background-color: red;
+            border-radius: 100%;
+            position: absolute;
+            left: 167px;
+        }
+        .box1{
+            height: 450px;
+            width: 450px;
+            border: 1px solid gray;
+            position: relative;
+            border-radius: 100%;
+            left: 425px;
+            top: -410px;
+            animation-name: firstmove;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .ball1{
+            height: 19px;
+            width: 19px;
+            background-color: darkblue;
+            border-radius: 100%;
+            position: absolute;
+            left: 1px;
+            top: 150px;
+        }
+        @keyframes firstmove{
+            0%{ transform: rotate(0deg);
+
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+         .box2{
+            height:400px;
+            width: 400px;
+            border: 1px solid gray;
+            position: relative;
+            border-radius: 100%;
+            left: 450px;
+            top: -837px;
+            animation-name: secondmove;
+            animation-duration: 8s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+         }
+         .ball2{
+            height: 18px;
+            width: 18px;
+            background-color: lightsalmon;
+            border-radius: 100%;
+            position: absolute;
+            left: 1px;
+            top: 129px;
+         } 
+         @keyframes secondmove{
+            0%{ transform: rotate(0deg);
+
+}
+100%{
+    transform: rotate(360deg);
+}
+         }
+         .box3{
+            height:350px ;
+            width:350px ;
+            border: 1px solid gray;
+            position: absolute;
+            border-radius: 100%;
+            left:483px ;
+            top:146px ;
+            animation-name: thirdsmove;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+
+
+         }
+         .ball3{
+            height: 18px;
+            width: 18px;
+            background-color: lightseagreen;
+            border-radius: 100%;
+            position: relative;
+            left: 106px;
+            top: 1px;
+
+         }
+         @keyframes thirdsmove{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+            
+         }
+         .box4{
+            height:300px ;
+            width: 300px;
+            border: 1px solid gray;
+            position: absolute;
+            border-radius: 100%;
+            top: 170px;
+            left: 510px;
+            animation-duration:8s;
+            animation-name: forthymove;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+         }
+         .ball4{
+            height: 18px;
+            width: 18px;
+            position: absolute;
+            background-color: lightcoral;
+            border-radius: 100%;
+            left: -5px;
+            top: 170px;
+         }
+         @keyframes forthymove{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+         }
+         .box5{
+            height: 250px;
+            width: 250px;
+            border: 1px solid gray;
+            position: absolute;
+            border-radius: 100%;
+            left: 535px;
+            top: 190px;
+            animation-duration:6s;
+            animation-name: fifthmove;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+         }
+         .ball5{
+            height: 18px;
+            width: 18px;
+            position: absolute;
+            background-color: lightcoral;
+            border-radius: 100%;
+            left: -5px;
+            top: 150px;
+         }
+         @keyframes fifthmove{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+         }
+         .box6{
+            height: 200px;
+            width: 200px;
+            border: 1px solid gray;
+            border-radius: 100%;
+            position: absolute;
+            left: 560px;
+            top: 215px;
+            animation-duration:6s;
+            animation-name: sixthmove;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+         
+              
+
+         }
+         .ball6{
+            height: 20px;
+            width: 20px;
+            position: absolute;
+            background-color: green;
+            border-radius: 100%;
+            left: 25px;
+            top: 165px;
+            
+         }
+         @keyframes sixthmove{
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+            }
+            .box7{
+            height: 160px;
+            width: 160px;
+            border: 1px solid gray;
+            border-radius: 100%;
+            position: relative;
+            left: 573px;
+            top: -1130px;
+            animation-duration:6s;
+            animation-name: seven;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+
+         
+              
+
+         }
+         @keyframes seven{
+            0%{
+                transform: rotate(15deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+            }
+            .ball7{
+                height: 12px;
+                width: 12px;
+                position: absolute;
+                background-color: wheat;
+            border-radius: 100%;
+            left: 100px;
+            top: 150px;
+
+            }
+            .box8{
+                height: 80px;
+                width: 80px;
+                border: 1px solid gray;
+                border-radius: 100%;
+                background-color: yellow;
+                position: absolute;
+                left: 620px;
+                top: 275px;
+                box-sizing: border-box;
+                box-shadow: 0px 0px 25px 0px yellow;
+            }
+            .ball8{
+
+            }
+       
+
+         
+            
+            
+        
+
+    </style>
+</head>
+<body>
+    
+
+
+    <div class="main-ball">
+        <div class="child-ball"></div>
+    </div>
+    <div class="box1">
+        <div class="ball1"></div>
+    </div>
+    <div class="box2">
+     <div class="ball2"></div>
+    </div>
+    <div class="box3">
+        <div class="ball3"></div>
+
+    </div>
+    <div class="box4">
+        <div class="ball4"></div>
+    </div>
+    <div class="box5">
+      <div class="ball5"></div>
+    </div>
+    <div class="box6">
+     <div class="ball6"></div>
+    </div>
+    <div class="box7">
+     <div class="ball7"></div>
+    </div>
+    <div class="box8">
+     <div class="ball8"></div>
+    </div>
+
+
+
+</body>
+</html>
